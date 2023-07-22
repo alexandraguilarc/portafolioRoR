@@ -14,8 +14,18 @@
  *= require_self
  */
 
+.card{
+    margin-top: 100px;
+}
+
 .tecl_img {
     width: 300px;
     height: 200px;
     margin-left: 20%;
+}
+
+#boton{
+    background-color: darkblue;
+    border-color: darkblue;
+    border-radius: 50px;
 }

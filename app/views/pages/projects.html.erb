@@ -1,2 +1,35 @@
-<h1>Pages#projects</h1>
-<p>Find me in app/views/pages/projects.html.erb</p>
+<h1>Proyectos</h1>
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <%= image_tag 'card1.png', class: 'cardProjects' %>
+            <div class="card-body">
+                <h5 class="card-title">Flujo, ciclos y métodos I en Ruby</h5>
+                <p class="card-text">Programa que desarrolla el juego piedra, papel o tijera. Donde el usuario pasará como argumento piedra, papel o tijera y el programa escogerá una opción al azar.</p>
+            </div>
+                <a href="https://github.com/alexandraguilarc/flujoCiclosMetodos_I_Ruby" class="btn btn-primary" id ='boton'>Ver más</a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <%= image_tag 'card2.png', class: 'cardProjects' %>
+            <div class="card-body">
+                <h5 class="card-title">Flujo, ciclos y métodos II en Ruby</h5>
+                <p class="card-text">Aplicando conceptos y herramientas sobre flujo, ciclos y métodos en Ruby, se presentan prácticas que incluyen la utilización de ciclos de una o más dimensiones (anidados).</p>
+            </div>
+                <a href="https://github.com/alexandraguilarc/flujoCiclosMetodos_II_Ruby" class="btn btn-primary" id ='boton'>Ver más</a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <%= image_tag 'card3.png', class: 'cardProjects' %>
+            <div class="card-body">
+                <h5 class="card-title">Flujo, ciclos y métodos III en Ruby</h5>
+                <p class="card-text">Programas que permiten ayudar a multiples usuarios/as en tareas determinadas haciendo uso de funciones, condicionales y lógica general en ruby.</p>
+            </div>
+                <a href="https://github.com/alexandraguilarc/flujoCiclosMetodos_III_Ruby" class="btn btn-primary" id ='boton'>Ver más</a>
+            </div>
+        </div>
+    </div>
+</div>
